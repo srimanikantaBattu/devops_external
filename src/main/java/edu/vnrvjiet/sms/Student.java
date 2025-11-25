@@ -8,6 +8,7 @@ import lombok.Data;
 @AllArgsConstructor
 public class Student {
     private Integer id;
+    
     private String name;
     private Integer maths;
     private Integer physics;
