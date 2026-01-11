@@ -18,7 +18,7 @@ WORKDIR /app
 # Copy the application JAR (LEAN/THIN) & its dependencies from the build stage to make a FAT/UBER JAR
 COPY --from=build /app/target/*.jar studentmarkservice.jar
 
-# Application is running in port 8100
+# Application is running in port 81000
 EXPOSE 8100
 
 # Command to run the application with all dependencies on the classpath
